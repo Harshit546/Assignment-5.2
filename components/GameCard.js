@@ -1,5 +1,7 @@
 export default function GameCard({ game }) {
   return (
+    // Shows the game cards on the screen
+
     <div className="bg-white rounded-lg shadow hover:shadow-lg transform hover:scale-105 transition p-4 flex flex-col">
       <h2 className="text-lg font-medium">{game.title}</h2>
       <div className="mt-2 text-sm text-gray-600">
